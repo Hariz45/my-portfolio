@@ -21,7 +21,7 @@ const About = () => {
                             If you have a business idea, I can turn it into a fully functional web application with clean UI and efficient performance.
                         </p>
                     </p>
-                    <a href="/public/resume.pdf" download>
+                    <a href="/resume.pdf" download>
                         <button className='about-btn'>Download Resume
                             <img className='download-icon' src={download} alt="Download" height={30} />
                         </button>
