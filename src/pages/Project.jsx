@@ -1,6 +1,5 @@
 import React from 'react'
-import ecommerce from "../assets/ecommerce.svg"
-import food from "../assets/food.png"
+
 
 
 const Project = () => {
