@@ -9,17 +9,19 @@ const About = () => {
             <h2 className='abt-txt'>About Me</h2>
             <div className='about-cont'>
 
-                <img className='avatar2' src={about} alt="About Me" />
+                <div className='avatar2-wrapper'>
+                    <img className='avatar2' src={about} alt="About Me" />
+                </div>
 
 
                 <div>
                     <p className='p-abt'>
-                        <p>
+                        
                             I am a passionate Full Stack Developer with hands-on experience in both frontend and backend technologies. <br />
                             I build responsive user interfaces using modern tools like React, and develop scalable backend systems using <br /> Node.js and Express with MongoDB.
                             I am capable of handling end-to-end development, from design to deployment. <br />
                             If you have a business idea, I can turn it into a fully functional web application with clean UI and efficient performance.
-                        </p>
+                    
                     </p>
                     <a href="/resume.pdf" download>
                         <button className='about-btn'>Download Resume
