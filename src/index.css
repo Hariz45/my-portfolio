@@ -496,7 +496,7 @@ section {
 }
 
 .card-container:hover .card-img-wrapper img,
-.card-container:hover > {
+.card-container:hover > img{
   transform: scale(1.06);
 }
 
