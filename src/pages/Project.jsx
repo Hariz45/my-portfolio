@@ -34,7 +34,7 @@ const Project = () => {
           <div className='card-content'>
             <h3>Rise Wave Software Solutions</h3>
             <p className='para-tag' >Developed a modern and responsive company portfolio website for RW Software Solutions using React.js. The website showcases company services, technologies, projects, careers, and contact information with a clean UI and mobile-friendly design.</p>
-            <a href="rs-website-h4bjwywas-hariz45s-projects.vercel.app" target="_blank">
+            <a href="https://rs-website-lime.vercel.app/" target="_blank">
               <button className='p-btn'>View Live</button>
             </a>
           </div>
