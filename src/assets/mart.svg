@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6a3de8"/>
+      <stop offset="100%" style="stop-color:#9b6ff5"/>
+    </linearGradient>
+    <linearGradient id="bagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.06"/>
+    </linearGradient>
+  </defs>
+
+  <!-- White background -->
+  <rect width="400" height="400" fill="#ffffff"/>
+
+  <!-- Purple circle background -->
+  <circle cx="200" cy="180" r="145" fill="url(#bgGrad)"/>
+
+  <!-- Shopping Bag shape -->
+  <!-- Bag body -->
+  <rect x="118" y="168" width="164" height="130" rx="14" fill="#fff"/>
+  <!-- Bag top flap cut -->
+  <rect x="118" y="168" width="164" height="22" rx="14" fill="#fff"/>
+
+  <!-- Bag handle left -->
+  <path d="M158,168 Q158,128 178,122 Q200,116 222,122 Q242,128 242,168"
+    fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- Bag handle inner cutout (purple) -->
+  <path d="M161,168 Q161,133 179,127 Q200,121 221,127 Q239,133 239,168"
+    fill="none" stroke="url(#bgGrad)" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Shine on bag -->
+  <rect x="118" y="168" width="164" height="130" rx="14" fill="url(#bagGrad)"/>
+
+  <!-- R-MART text on bag -->
+  <text x="200" y="222"
+    font-family="'Arial Black', 'Helvetica Neue', sans-serif"
+    font-size="30"
+    font-weight="900"
+    fill="url(#bgGrad)"
+    text-anchor="middle"
+    letter-spacing="2">R-MART</text>
+
+  <!-- Small star / sparkle accents on bag -->
+  <text x="136" y="208" font-size="14" fill="#9b6ff5" opacity="0.6" font-family="sans-serif">✦</text>
+  <text x="253" y="268" font-size="10" fill="#9b6ff5" opacity="0.5" font-family="sans-serif">✦</text>
+
+  <!-- Tagline below circle -->
+  <text x="200" y="355"
+    font-family="'Arial Black', 'Helvetica Neue', sans-serif"
+    font-size="26"
+    font-weight="900"
+    fill="#2d1a6e"
+    text-anchor="middle"
+    letter-spacing="3">R-MART</text>
+
+  <text x="200" y="380"
+    font-family="'Arial', sans-serif"
+    font-size="12"
+    fill="#9b6ff5"
+    text-anchor="middle"
+    letter-spacing="4">ONLINE STORE</text>
+</svg>
